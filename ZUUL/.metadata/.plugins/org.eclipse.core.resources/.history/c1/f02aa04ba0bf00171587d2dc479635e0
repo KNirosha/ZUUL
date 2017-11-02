@@ -1,0 +1,5 @@
+server.port=2020
+zuul.prefix=/api
+zuul.routes.orders.service-id=ORDERS
+zuul.routes.reports.service-id=REPORTS
+eureka.client.serviceUrl.defaultZone=http://localhost:1100/eureka

@@ -1,0 +1,10 @@
+server.port=2020
+zuul.prefix=/api
+#ribbon.eager-load.enabled=false
+#ribbon.eureka.enabled=false
+zuul.routes.orders.path=/orders/**
+zuul.routes.orders.service-id=ORDERS:3f558103baf0600d9e153adc5c22fc3c
+zuul.routes.reports.path=/reports/**
+zuul.routes.reports.service-id=REPORTS:806f0686eb3b1932068702fc819e478e
+zuul.routes.google.path=/search/**
+zuul.routes.google.url=http://google.com

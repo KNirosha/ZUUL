@@ -1,0 +1,28 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.model.Order;
+import com.example.demo.service.OrderService;
+@RestController
+public class OrdersController {
+	@Autowired
+	OrderService orderService;
+	@RequestMapping(method=RequestMethod.GET, value="/Orders")
+	public List<Order> getOrders(){
+		return orderService.getOrders();
+	}
+	public OrderService getOrderService() {
+		return orderService;
+	}
+	public void setOrderService(OrderService orderService) {
+		this.orderService = orderService;
+	}
+	
+
+}

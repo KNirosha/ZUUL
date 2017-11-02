@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.example.demo.repository.OrdersRepo"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.example.demo.model.Order"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="com.netflix.ribbon.proxy.annotation.Http.HttpMethod"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.example.demo.service.OrderService"/>
+<fullyQualifiedTypeName name="com.example.demo.Repository.ReportsRepo"/>
+<fullyQualifiedTypeName name="com.example.demo.model.Report"/>
+<fullyQualifiedTypeName name="com.example.demo.Service.ReportsService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.zuul.EnableZuulProxy"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.example.demo.filters.PostFilter"/>
+<fullyQualifiedTypeName name="com.example.demo.filters.ErrorFilter"/>
+<fullyQualifiedTypeName name="com.example.demo.filters.RouteFilter"/>
+<fullyQualifiedTypeName name="com.example.demo.filters.PreFilter"/>
+</qualifiedTypeNameHistroy>

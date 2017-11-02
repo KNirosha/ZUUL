@@ -1,0 +1,24 @@
+package com.example.demo.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.model.Report;
+@Repository
+public class ReportsRepo {
+	
+	public List<Report> getReports(){
+		List <Report> reportsList= new ArrayList<>();
+		Report report= new Report();
+		report.setId(12);
+		report.setName("EMP-LIST");
+		report.setCreatedBy("KKMMSS");
+		report.setContent("MUNISEKHAR IS DOING ZUUL POC");
+		reportsList.add(report);
+		return reportsList;
+		
+	}
+
+}

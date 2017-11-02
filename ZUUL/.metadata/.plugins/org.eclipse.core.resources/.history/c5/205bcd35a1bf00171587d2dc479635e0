@@ -1,0 +1,4 @@
+server.port=2020
+zuul.prefix=/api
+zuul.routes.orders.service-id=ORDERS:0fc91ea8049c91fc090843cba36312cc
+zuul.routes.reports.service-id=REPORTS:b4a869e87b5d9cd08a20d5f769b05423

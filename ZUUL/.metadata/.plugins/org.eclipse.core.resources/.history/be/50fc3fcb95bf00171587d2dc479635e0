@@ -1,0 +1,12 @@
+package com.example.demo.model;
+
+import java.util.Date;
+
+public class Order {
+	
+	private int orderNo;
+	private double price;
+	private String orderedBy;
+	private Date createdOn;
+
+}

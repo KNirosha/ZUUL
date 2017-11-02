@@ -1,0 +1,8 @@
+server.port=2020
+zuul.prefix=/api
+ribbon.eager-load.enabled=false
+ribbon.eureka.enabled=false
+zuul.routes.orders.path=/orders
+zuul.routes.orders.service-id=ORDERS:0fc91ea8049c91fc090843cba36312cc
+zuul.routes.reports.path=/reports
+zuul.routes.reports.service-id=REPORTS:b4a869e87b5d9cd08a20d5f769b05423
